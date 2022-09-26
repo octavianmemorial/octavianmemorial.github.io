@@ -6,7 +6,6 @@ html {
 body {
     background-image: url("media/background.jpg");
     background-size: contain;
-    /* background: linear-gradient(180deg, rgba(231,195,229,1) 0%, rgba(181,126,179,1) 51%, rgba(138,88,135,1) 100%); */
     font-size: 11pt;
     font-family: "Enriqueta", sans-serif;
     color: #512E4F;
