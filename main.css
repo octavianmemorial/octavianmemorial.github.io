@@ -1,0 +1,56 @@
+html {
+    margin:    auto;
+    max-width: 70%;
+}
+
+body {
+    background-image: url("media/background.jpg");
+    background-size: contain;
+    /* background: linear-gradient(180deg, rgba(231,195,229,1) 0%, rgba(181,126,179,1) 51%, rgba(138,88,135,1) 100%); */
+    font-size: 11pt;
+    font-family: "Enriqueta", sans-serif;
+    color: #512E4F;
+}
+
+div {
+    background-color: #FFFFFF;
+    color: #512E4F;
+}
+
+.nav-link {
+    background-color: #512E4F;
+    color: #FFFFFF;
+    font-size: 13pt;
+    font-family: "Enriqueta", sans-serif;
+    border: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    background-color: #774a75;
+}
+
+.btn {
+    background-color: #512E4F;
+    color: #FFFFFF;
+    font-size: 13pt;
+    font-family: "Enriqueta", sans-serif;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #774a75;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 600px;
+    max-height: 600px;
+}
