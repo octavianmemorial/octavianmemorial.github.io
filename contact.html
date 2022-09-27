@@ -58,9 +58,9 @@
                 form below.
             </div>
         </div>
-        <div class="row pl-5 pr-5 pt-2 pb-2">
+        <div class="row pl-5 pr-5 pt-2 pb-2 form-group">
             <div class="col-12">
-                <form>
+                <!-- <form>
                     <div class="form-group">
                         <label for="Name">Name</label>
                         <input type="text" class="form-control" id="Name" placeholder="Enter name">
@@ -75,6 +75,32 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                     <br><br>
+                </form> -->
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/f/xeqdgddz" method="post">
+                    <div>
+                        <fieldset id="fs-frm-inputs">
+                            <div><label for="full-name">Full Name</label> <br>
+                                <input style="width:100%" type="text" name="name" id="full-name"
+                                    placeholder="First and Last" required="">
+                            </div>
+                            <div>
+                                <label for="email-address">Email Address</label> <br>
+                                <input style="width:100%" type="email" name="_replyto" id="email-address"
+                                    placeholder="email@gmail.com" required="">
+                            </div>
+                            <div>
+                                <label for="message">Message</label><br>
+                                <textarea style="width:100%;border-color:grey" rows="5" name="message" id="message"
+                                    placeholder="Your message" required=""></textarea>
+                                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                    <br>
                 </form>
             </div>
         </div>
