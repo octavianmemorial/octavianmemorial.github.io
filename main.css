@@ -53,3 +53,10 @@ div {
     height: 600px;
     max-height: 600px;
 }
+
+a {
+    font-size: 11pt;
+    font-family: "Enriqueta", sans-serif;
+    color: #512E4F;
+    font-style: underline;
+}
