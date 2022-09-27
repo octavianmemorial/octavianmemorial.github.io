@@ -20,51 +20,65 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<ul class="nav justify-content-center nav-fill m-3 p-3">
-    <li class="nav-item">
-        <a class="nav-link active" href="index.html">Octavian</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="stories.html">Stories</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-    </li>
-</ul>
+<body>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        } 
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<div class="container">
-    <div class="row p-5 text-center">
-        <div class="col-12">
-            <h1>Contact Us</h1>
+    <ul class="nav justify-content-center nav-fill m-3 p-3">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Octavian</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="stories.html">Stories</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="row p-5 text-center">
+            <div class="col-12">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div class="row pl-5 pr-5 pt-2 pb-2">
+            <div class="col-12">
+                If you have any inquiries or comments about this site, or on the life and work of Octavian,
+                please contact Raquel Santana at <a href="mailto:raquelgt@mit.edu">raquelgt@mit.edu</a> or fill out the
+                form below.
+            </div>
+        </div>
+        <div class="row pl-5 pr-5 pt-2 pb-2">
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Message">Message</label>
+                        <textarea class="form-control" id="Message" rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <br><br>
+                </form>
+            </div>
         </div>
     </div>
-    <div class="row pl-5 pr-5 pt-2 pb-2">
-        <div class="col-12">
-            If you have any inquiries or comments about this site, or on the life and work of Octavian,
-            please contact Raquel Santana at <a href="mailto:raquelgt@mit.edu">raquelgt@mit.edu</a> or fill out the form below.
-        </div>
-    </div>
-    <div class="row pl-5 pr-5 pt-2 pb-2">
-        <div class="col-12">
-            <form>
-                <div class="form-group">
-                    <label for="Name">Name</label>
-                    <input type="text" class="form-control" id="Name" placeholder="Enter name">
-                </div>
-                <div class="form-group">
-                    <label for="Email">Email address</label>
-                    <input type="email" class="form-control" id="Email" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="Message">Message</label>
-                    <textarea class="form-control" id="Message" rows="8"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <br><br>
-            </form>
-        </div>
-    </div>
-</div>
 
 </body>
 
